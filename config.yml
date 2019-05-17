@@ -7,7 +7,7 @@
 # Mail Server #
 ###############
 
-# mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
+mail.backend: 'dummy'  # Use dummy if you want to disable email entirely
 # mail.host: 'localhost'
 # mail.port: 25
 # mail.username: ''
@@ -61,3 +61,6 @@
 #   access_key: 'AKIXXXXXX'
 #   secret_key: 'XXXXXXX'
 #   bucket_name: 's3-bucket-name'
+slack.client-id: "4303102884.626871201778"
+slack.client-secret: '0812176c845df601281f0c320b3ab289'
+slack.verification-token: 'S1pbDOnVYqfRQ3iMPkbIdP9G'
