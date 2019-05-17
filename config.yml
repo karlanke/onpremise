@@ -61,6 +61,6 @@ mail.backend: 'dummy'  # Use dummy if you want to disable email entirely
 #   access_key: 'AKIXXXXXX'
 #   secret_key: 'XXXXXXX'
 #   bucket_name: 's3-bucket-name'
-slack.client-id: "4303102884.626871201778"
-slack.client-secret: '0812176c845df601281f0c320b3ab289'
-slack.verification-token: 'S1pbDOnVYqfRQ3iMPkbIdP9G'
+slack.client-id: "" #keep the double quotes, otherwise it interprets it as a float
+slack.client-secret: ''
+slack.verification-token: ''

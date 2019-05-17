@@ -7,3 +7,5 @@ do
 	docker commit $NAME $IMAGE
 done
 #docker exec sentry_web_1 sentry config set sentry:version-configured '9.1.1'
+docker-compose down
+docker-compose up -d
