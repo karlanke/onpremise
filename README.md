@@ -5,7 +5,23 @@ Kyruus-tweaked bootstrap for running your own [Sentry](https://sentry.io/) with 
 ## Requirements
 
  * Docker 1.10.0+
+    
+    To install:
+    
+    `sudo yum update -y`
+    
+    `sudo yum install -y docker`
+    
+    `sudo service docker start`
  * Compose 1.6.0+
+ 
+    To install:
+    
+    `sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
+    
+    `sudo chmod +x /usr/local/bin/docker-compose`
+    
+    `sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose`
  
  ## Minimum Hardware Requirements:
  
@@ -16,8 +32,7 @@ Set up Slack first for the easiest flow. In the Kyruus workspace, add a [custom 
 
 Now, follow the steps from Sentry with a few tweaks:
 
-Assuming you've just cloned this repository, the following steps
-will get you up and running in no time!
+Clone this repo!
 
 There may need to be modifications to the included `docker-compose.yml` file to accommodate your needs or your environment. These instructions are a guideline for what you should generally do.
 
